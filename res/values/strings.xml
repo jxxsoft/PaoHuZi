@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">跑胡子</string>
+    <string name="message_box_set_wifi">"需要连接上WiFi才可以进行WiFi局域网对战"</string>
+    <string name="muliti_help_title_1">· 什么是“WiFi局域网”对战？</string>
+    <string name="muliti_help_content_1_1">1. 首先所有玩家需要都安装这款斗地主</string>
+    <string name="muliti_help_content_1_2">2. 然后所有玩家需要同时连接同一个WiFi</string>
+    <string name="muliti_help_content_1_3">3. 接下来就可以进行WiFi局域网对战</string>
+    <string name="muliti_help_title_2">· 只有一个小伙伴，3缺1怎么办？</string>
+    <string name="muliti_help_content_2">你可以添加一个电脑玩家来凑齐3个人</string>
+    <string name="muliti_help_title_3">· 怎么没有其他玩家？</string>
+    <string name="muliti_help_content_3_1">1. 还在等什么，赶紧让你的小伙伴们安装这款斗地主</string>
+    <string name="muliti_help_content_3_2">2. 接着让你的小伙伴们和你同时连接同一个WiFi</string>
+    
+
+    <string name="message_box_user_leave">有玩家离开，游戏得分将被重置</string>
+    <string name="message_box_user_leave_in_playing">有玩家离开，游戏结束</string>
+</resources>

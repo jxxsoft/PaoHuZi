@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="游戏设置" android:icon="@drawable/icon_setup"/>
+    <item
+        android:id="@+id/action_exits"
+        android:orderInCategory="100"
+        android:title="退出游戏" android:icon="@drawable/menu_exit"/>
+    
+
+</menu>

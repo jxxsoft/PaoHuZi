@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/choose_game_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0" >
+
+        <ImageView
+            android:id="@+id/choose_game_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10.0dip"
+            android:src="@drawable/choose_game_exit_btn" />
+
+        <ImageView
+            android:id="@+id/choose_game_exit_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:src="@drawable/choose_game_text_choose_game" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/choose_game_frame2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4.0" >
+
+        <LinearLayout
+            android:id="@+id/choose_game_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/choose_game_single_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/big_black_rect_inset"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/choose_game_single_player_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/choose_game_single_player" />
+
+                <ImageButton
+                    android:id="@+id/choose_game_btn_single_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12.0dip"
+                    android:background="@drawable/choose_game_red_btn"
+                    android:src="@drawable/choose_game_text_single_player" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/choose_game_multi_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/big_black_rect_inset"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/choose_game_multiple_player"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/choose_game_multiple_player" />
+
+                <ImageButton
+                    android:id="@+id/choose_game_btn_multi_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12.0dip"
+                    android:background="@drawable/choose_game_blue_btn"
+                    android:src="@drawable/choose_game_text_multiple_player" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

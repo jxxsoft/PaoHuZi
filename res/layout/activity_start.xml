@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@drawable/background" >
+
+    <RelativeLayout
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="6.0" >
+
+        <ImageView
+            android:id="@+id/start_screen_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/company"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="5.0dip"
+            android:layout_marginLeft="5.0dip"
+            android:text="版本号：0.0.1"  />
+        <TextView
+            android:id="@+id/company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="5.0dip"
+            android:layout_marginLeft="5.0dip"
+            android:text="吉祥雪软件股份有限公司"  />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/start_screen_linear"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="3.0"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/start_screen_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:background="@drawable/start_screen_blue_btn_selector"
+            android:src="@drawable/start_screen_text_start" />
+
+        <ImageButton
+            android:id="@+id/start_screen_feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:background="@drawable/start_screen_green_btn_selector"
+            android:src="@drawable/start_screen_text_feedback" />
+
+        <ImageButton
+            android:id="@+id/start_screen_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:background="@drawable/start_screen_red_btn_selector"
+            android:src="@drawable/start_screen_text_exit" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="exit_button_padding">10.0dip</dimen>
+    <dimen name="user_rect_interval_padding">3.0dip</dimen>
+    <dimen name="choose_game_screen_image_margin_top">12.0dip</dimen>
+    <dimen name="user_rect_left_right_padding">30.0dip</dimen>
+    <dimen name="multi_game_user_area_height">117.0px</dimen>
+    <dimen name="multi_user_game_user_area_margin_bottom">1.0dip</dimen>
+    <dimen name="help_dialog_width">550.0px</dimen>
+    <dimen name="multi_help_title_font">16.0dip</dimen>
+    <dimen name="multi_help_content_font">14.0dip</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="setting_panel_width">650.0px</dimen>
+     <dimen name="seekbark_stroke_width">2.0px</dimen>
+      <dimen name="seekbar_padding">10.0dip</dimen>
+     <dimen name="online_user_name_font">8.0dip</dimen>
+</resources>

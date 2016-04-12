@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical" android:background="@drawable/background" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" >
+
+        <ImageView
+            android:id="@+id/multi_game_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="@dimen/exit_button_padding"
+            android:src="@drawable/choose_game_exit_btn" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:src="@drawable/wifi_multi_game_text_title" />
+
+        <ImageView
+            android:id="@+id/multi_game_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right|center"
+            android:layout_marginRight="@dimen/exit_button_padding"
+            android:src="@drawable/help_btn" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="4.0" >
+
+        <HorizontalScrollView
+            android:id="@+id/multi_game_game_list_holder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/user_rect_left_right_padding"
+            android:layout_marginRight="@dimen/user_rect_left_right_padding"
+            android:fadeScrollbars="false" >
+            <LinearLayout
+                android:id="@+id/multi_game_game_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/multi_game_create_game"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/big_black_rect_inset"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/multi_game_pic_create_game"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/multi_game_pic_create_game" />
+
+                    <ImageButton
+                        android:id="@+id/multi_game_btn_create_game"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/choose_game_screen_image_margin_top"
+                        android:background="@drawable/choose_game_red_btn"
+                        android:src="@drawable/multi_game_text_create_game" />
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/multi_game_user_area"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/multi_game_user_area_height"
+        android:layout_marginBottom="@dimen/multi_user_game_user_area_margin_bottom"
+        android:layout_marginLeft="@dimen/user_rect_left_right_padding"
+        android:layout_marginRight="@dimen/user_rect_left_right_padding"
+        android:background="@drawable/multi_game_bk_online_user"
+        android:orientation="horizontal" >
+
+        <HorizontalScrollView
+            android:id="@+id/multi_game_online_user_list_holder"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:fadeScrollbars="false" >
+            <LinearLayout
+                android:id="@+id/multi_game_online_user_list"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+                	<include layout="@layout/multi_game_user"/>
+                </LinearLayout>
+        </HorizontalScrollView>
+
+
+        <Button
+            android:id="@+id/multi_game_btn_user_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:layout_marginLeft="5.0dip"
+            android:background="@drawable/multi_game_btn_user_info" />
+    </LinearLayout>
+
+</LinearLayout>

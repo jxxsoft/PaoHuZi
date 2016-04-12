@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"  android:background="@drawable/bg_hint_box" >
+        <TextView
+            style="@style/MultiGameHelpTitle"
+            android:text="@string/muliti_help_title_1" />
+        <TextView
+            style="@style/MultiGameHelpContent"
+            android:text="@string/muliti_help_content_1_1" />
+        <TextView
+            style="@style/MultiGameHelpContent"
+            android:text="@string/muliti_help_content_1_2" />
+
+        <TextView
+            style="@style/MultiGameHelpContent"
+            android:text="@string/muliti_help_content_1_3" />
+
+        <TextView
+            style="@style/MultiGameHelpTitle"
+            android:layout_marginTop="3.0dip"
+            android:text="@string/muliti_help_title_2" />
+
+        <TextView
+            style="@style/MultiGameHelpContent"
+            android:text="@string/muliti_help_content_2" />
+
+        <TextView
+            style="@style/MultiGameHelpTitle"
+            android:layout_marginTop="3.0dip"
+            android:text="@string/muliti_help_title_3" />
+
+        <TextView
+            style="@style/MultiGameHelpContent"
+            android:text="@string/muliti_help_content_3_1" />
+
+        <TextView
+            style="@style/MultiGameHelpContent"
+            android:text="@string/muliti_help_content_3_2" />
+    </LinearLayout>
+
+</FrameLayout>
